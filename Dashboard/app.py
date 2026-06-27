@@ -11,7 +11,7 @@ import streamlit as st
 # ==================================================
 
 st.set_page_config(
-    page_title="ENVIREX - AI",
+    page_title="Prithvex",
     page_icon="S",
     layout="wide",
 )
@@ -480,7 +480,7 @@ SUPPLIER_RISK = pd.DataFrame(
 # SIDEBAR CONTROLS
 # ==================================================
 
-st.sidebar.markdown("## SupplyShield AI")
+st.sidebar.markdown("## Prithvex")
 st.sidebar.caption("Global disruption command center")
 
 page = st.sidebar.radio(
@@ -627,7 +627,7 @@ def render_hero():
         <section class="hero">
             <div class="hero-content">
                 <div class="eyebrow">AI active | Supply chain digital twin</div>
-                <h1>SupplyShield AI</h1>
+                <h1> Prithvex </h1>
                 <p>
                     A global risk command center that predicts demand, detects disruption
                     events, simulates operational impact, and recommends automated response
@@ -869,7 +869,7 @@ def copilot_response(question):
             f"${worsened_loss:,.0f}. Trigger: {response_action}."
         )
     return (
-        f"SupplyShield is tracking {event_meta['location']} from {event_meta['feed']}. "
+        f"Prithvex  is tracking {event_meta['location']} from {event_meta['feed']}. "
         f"Current recommendation is {recommendation}, with backup path: {event_meta['backup']}."
     )
 
@@ -978,7 +978,7 @@ elif page == "Digital Twin":
 
 elif page == "AI Copilot":
     render_hero()
-    st.markdown('<div class="section-label">Ask SupplyShield AI</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-label">Ask Prithvex</div>', unsafe_allow_html=True)
     question = st.text_input(
         "Ask a supply-chain risk question",
         value="What caused today's risk spike?",
@@ -987,7 +987,7 @@ elif page == "AI Copilot":
     st.markdown(
         f"""
         <div class="copilot-answer">
-            <strong>SupplyShield Copilot:</strong><br>
+            <strong>Prithvex Copilot:</strong><br>
             {copilot_response(question)}
         </div>
         """,
@@ -1006,7 +1006,7 @@ elif page == "Architecture":
     st.markdown(
         """
         <div class="status-panel neon-green">
-            <div class="status-title">SupplyShield AI Flow</div>
+            <div class="status-title">Prithvex Flow</div>
             <div class="status-copy">
                 M5-style demand signals -> XGBoost forecasting -> confidence interval ->
                 risk classification -> SHAP-ready evidence layer -> event intelligence ->

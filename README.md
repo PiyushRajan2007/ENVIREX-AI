@@ -1,8 +1,8 @@
-# SupplyShield AI
+# Prithvex
 
 Uncertainty-aware risk intelligence for global supply chains.
 
-SupplyShield AI is a hackathon prototype that moves supply chain planning from passive forecasting to active decision intelligence. It forecasts operational inventory pressure, simulates disruption scenarios, classifies risk, and recommends an action through an interactive Streamlit dashboard.
+Prithvex is a hackathon prototype that moves supply chain planning from passive forecasting to active decision intelligence. It forecasts operational inventory pressure, simulates disruption scenarios, classifies risk, and recommends an action through an interactive Streamlit dashboard.
 
 The project is aligned with the pitch deck theme: making supply chains predictable, trustworthy, and resilient by combining machine learning, uncertainty estimation, explainability, and decision automation.
 
@@ -14,7 +14,7 @@ Supply chains often fail because teams receive point forecasts without reliabili
 - Analysts need too much time to translate risk signals into action.
 - Supplier and logistics shocks can cascade before buyers see the impact.
 
-SupplyShield AI compresses that uncertainty-to-action workflow into an interactive dashboard where a user can test scenarios and immediately see risk level, business impact, and the recommended response.
+Prithvex compresses that uncertainty-to-action workflow into an interactive dashboard where a user can test scenarios and immediately see risk level, business impact, and the recommended response.
 
 ## What This Repo Implements
 
@@ -206,7 +206,7 @@ pip install lightgbm networkx
 
 ## Pitch Deck Alignment
 
-The presentation frames SupplyShield AI as a five-layer system:
+The presentation frames Prithvex as a five-layer system:
 
 | Pitch Layer | Current Repo Status |
 | --- | --- |
@@ -229,7 +229,7 @@ Those items are represented in the product concept and can be built on top of th
 
 ## Business Impact Story
 
-SupplyShield AI is designed around four impact goals from the deck:
+Prithvex is designed around four impact goals from the deck:
 
 - Reduce emergency procurement costs by surfacing risk earlier.
 - Reduce stockouts without excessive overstock.
@@ -255,4 +255,4 @@ This is a hackathon prototype, not a production deployment. The current implemen
 
 ## One-Line Summary
 
-SupplyShield AI is a local, reproducible supply chain resilience prototype that combines forecasting, uncertainty awareness, disruption simulation, risk triage, and prescriptive recommendations in a Streamlit decision dashboard.
+Prithvex is a local, reproducible supply chain resilience prototype that combines forecasting, uncertainty awareness, disruption simulation, risk triage, and prescriptive recommendations in a Streamlit decision dashboard.
